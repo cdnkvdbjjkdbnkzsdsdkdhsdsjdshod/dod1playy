@@ -1,9 +1,11 @@
-const { Discord , Util } = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
  const prefix = "1";
 client.on('ready', () => {
     console.log('I am ready!');
 });
+
+
 
 client.on('message', message => {
     if (message.content === 'zg') {
@@ -46,7 +48,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 });
 
 
-
+const { Client , Util } = require('discord.js');
 const ytdl = require("ytdl-core");
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');

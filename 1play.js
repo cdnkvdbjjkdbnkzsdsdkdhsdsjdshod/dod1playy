@@ -22,7 +22,7 @@ client.on('message', message => {
     client.user.setGame(argresult);
       message.channel.send(`***Done .✅   ${argresult}**`)
   } else 
-     if (message.content === (adminprefix + "leave")) {
+     if (message.content === (adminprefix + "ساسعليساءنسختسعهسغعلءسشعسخنشخسشهسعضغ")) {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'wt')) {
